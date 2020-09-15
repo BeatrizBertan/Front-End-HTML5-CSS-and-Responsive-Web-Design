@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Cadastro</title>
+		
+    <meta charset = utf-8>
+		
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+	
+		<link rel = "shortcut icon" href = "img/icons8-tartaruga-64.png">
+		
+		<link rel = "stylesheet" type = "text/css" href = "estilo.css">
+		
+		<link href = "https://fonts.googleapis.com/css?family=Fredericka+the+Great|Roboto" rel = "stylesheet">
+
+
+		
+    </head>
+    
+    <body>
+   
+    <header class = "logo">
+        <div class = "logo1">
+		<figcaption class = "icone">
+		<img src = "img/icons8-tartaruga-64.png" class = "tartaruga">
+		TURSEA
+		</figcaption>	
+		
+		<p class = "logo2">SOS Tartarugas Marinhas</p>
+
+        </div>
+
+   <nav>
+	   
+    <table border = "0">
+        
+   <center>     
+   <nav>
+    
+    <ul class = "menu">
+        
+        <li class = "lista"><a href = "index.html" class = "link1"> Página Inicial </a></li>
+        <li class = "lista"><a href = "tartarugas.html" class = "link1"> Tartarugas Marinhas </a></li>
+        <li class = "lista"><a href = "meta.html" class = "link1"> Meta </a></li>
+        <li class = "lista"><a href = "cadastro.html" class = "link1"> Cadastro </a></li>
+        <li class = "lista"><a href = "contato.html" class = "link1"> Contato </a></li>
+        
+    </ul>
+        
+    </nav>
+    
+    </center>
+        
+        
+    </table>
+        
+    </nav>
+          
+    </header>
+        
+
+    <!-- Aqui ficará o corpo do site, informações e afins-->
+<section class = "section">
+	
+        <table border = "0">
+            
+        </table>
+            
+        
+        
+    <!-- Formulário de Cadastro-->
+        
+        <h2 class = "titulo">Cadastro</h2>
+        
+       
+            
+    <article> 
+
+			
+        <form>
+			
+			<div>
+				<p>Nome: <input type="text" autofocus name="nome" placeholder = "Campo Obrigatório" required class = "form">
+				   Sobrenome: <input type="text" name="sobrenome" placeholder = "Campo Opcional" class = "form"></p>
+			
+			</div>
+			<div>
+				
+				<p>Email:  <input type="text" name="nome" placeholder = "Campo Obrigatório" required class = "form"></p>
+			
+			</div>
+			
+			<div>
+				<p>Senha: <input type = "password" name = "senha" placeholder = "Campo Obrigatório" required class = "form">
+				Confirmar: <input type = "password" name = "senha" placeholder = "Campo Obrigatório" required class = "form"></p>
+			
+			</div>
+			
+			
+			<div class="campo" id = "checkbox">
+				
+				<p>Gênero:</p>
+				<p><input type="radio" name="sex" value="masc"> Masculino
+          			<input type="radio" name="sex" value="fem"> Feminino
+          			<input type="radio" name="sex" value="ou"> Outro</p>
+				
+			</div>
+		
+			
+			<div>
+
+		   <p>Estado: <select type = "estado" name = "estado" required class = "form">
+					<option> Selecione o Estado</option>
+					<option value = "acre"> Acre (AC) </option>
+					<option value = "alagoas"> Alagoas (AL) </option>
+					<option value = "amapa"> Amapá (AP) </option>
+					<option value = "amazonas"> Amazonas (AM) </option>
+					<option value = "bahia"> Bahia (BA) </option>
+					<option value = "ceara"> Ceará (CE) </option>
+					<option value = "df"> Distrito Federal (DF)</option>        
+					<option value = "es"> Espírito Santo (ES) </option>      
+					<option value = "goias"> Goiás (GO) </option>
+					<option value = "maranhao"> Maranhão (MA) </option>
+					<option value = "matogrosso"> Mato Grosso (MT) </option>
+					<option value = "matogrossosul"> Mato Grosso do Sul (MS) </option>
+					<option value = "minasgerais"> Minas Gerais (MG) </option>
+					<option value = "para"> Pará (PA)</option>
+					<option value = "paraiba"> Paraíba (PB) </option>
+					<option value = "parana"> Paraná (PR) </option>
+					<option value = "pernambuco"> Pernambuco (PE) </option>
+					<option value = "piaui"> Piauí (PI) </option>
+					<option value = "rj"> Rio de Janeiro (RJ) </option>
+					<option value = "riograndenorte"> Rio Grande do Norte (RN) </option>
+					<option value = "riograndesul"> Rio Grande do Sul (RS) </option>
+					<option value = "rondonia"> Rondônia (RO) </option>
+					<option value = "roraima"> Roraima (RR) </option>
+					<option value = "santacatarina"> Santa Catarina (SC) </option>
+					<option value = "sp"> São Paulo (SP) </option>
+					<option value = "sergipe"> Sergipe (SE) </option>
+					<option value = "tocantins"> Tocantins (TO) </option>
+					</select>
+			   
+				
+				Cidade: <input type="text" name="cidade" placeholder = "Campo Opcional" class = "form"></p>
+				
+			</div>
+				
+ 
+            <input class = "botao" type = "submit" value = "Enviar">
+
+            
+        </form>
+			
+		
+		
+		
+ <!-- Formulário de Doações-->
+     <br><br>  
+		
+ 
+      <h2 class = "titulo">Doação</h2>
+		
+	<form>
+     
+ 		<div>
+	 
+	 
+	 <p>Login: <input type="text" name="email" placeholder = "Digite seu Login" required class = "form">
+		Senha: <input type = "password" name = "senha" placeholder = "Senha" required class = "form"></p>
+	 
+		
+		</div>             
+
+	
+		<div>
+			
+	
+	<p>CPF: <input type="text" name="number" placeholder = "Campo Obrigátorio" required class = "form">
+	   Celular: <input type="text" name="number" placeholder = "Campo Opcional" class = "form" ></p>
+
+		</div>
+		
+		
+		<div>
+			
+			
+	<p>Escolha um valor:</p>
+    <p><input type="radio" name="number" value="R$10">R$10 
+    	<input type="radio" name="number" value="R$20">R$20 
+    	<input type="radio" name="number" value="R$50">R$50 
+    	<input type="radio" name="number" value="R$100">R$100 
+    	<input type="radio" name="number" value="R$300">R$300</p>
+		
+		</div>
+
+		<div>
+
+			<p>Forma de pagamento:</p>
+			<p><input type="radio" name="number">Cartão de Crédito<input type="radio" name = "number">Boleto Bancário</p>
+			
+		</div>             
+
+
+ <input  class = "botao" type="submit" value="Doar">
+
+    
+    </form>
+        
+        
+    </article> 
+	
+			<center>
+				
+	        <figure>
+				
+           <img src = "img/tartaruga-verde-peixes.jpg" class = "imagem" alt = "Tartaruga marinha nadando entre peixes" title = "Tartaruga marinha nadando entre peixes">
+                
+            </figure>
+            
+	        </center>
+            
+</section>
+        
+
+    <!-- Aqui começa o rodapé com nomes-->
+    
+        
+<footer>
+    
+    <nav> 
+    <a href = "index.html" class = "link3">Voltar para a Página Inicial</a>
+    </nav>
+    <p>
+    Ong Tursea
+    <br>
+    Beatriz Bertan 31955312
+    <br>
+    Gabriela Fonseca 31910701
+    <br>
+    Sala 01H - 2019
+    </p>
+    
+</footer>
+    
+
+    </body>
+
+</html>
